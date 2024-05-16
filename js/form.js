@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', '../php/selection.php', true);
+        xhr.open('POST', '../selection.php', true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('opt=' + selectedIndex);
     });
