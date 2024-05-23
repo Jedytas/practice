@@ -30,8 +30,8 @@
             <form action="product_filter.php" method="post">
                 <h4>Получить список товаров по закупке:</h4>
 
-                <label for="price_min">Цена закупки от</label>
-                <input type="number" name="price_min" value="<?php echo isset($_COOKIE['product_filter_data']) ? json_decode($_COOKIE['product_filter_data'])->price_min : ''; ?>">
+                <label for="price_min">Цена закупки <br>от</label>
+                <input type="number" name="price_min" value="<?php echo isset($_COOKIE['product_filter_data']) ? json_decode($_COOKIE['product_filter_data'])->price_min : ''; ?>"><br>
                 <label for="price_max">До</label>
                 <input type="number" name="price_max" value="<?php echo isset($_COOKIE['product_filter_data']) ? json_decode($_COOKIE['product_filter_data'])->price_max : ''; ?>"><br>
                 <input id="sendbutton" type="submit" value="Отправить">
@@ -93,8 +93,8 @@
             <form action="sales_filter.php" method="post">
                 <h4>Получить список продаж по фильтру:</h4>
 
-                <label for="date_min">Дата продажи от</label>
-                <input type="date" name="date_min" value="<?php echo isset($_COOKIE['sales_filter_data']) ? json_decode($_COOKIE['sales_filter_data'])->date_min : ''; ?>">
+                <label for="date_min">Дата продажи <br>от</label>
+                <input type="date" name="date_min" value="<?php echo isset($_COOKIE['sales_filter_data']) ? json_decode($_COOKIE['sales_filter_data'])->date_min : ''; ?>"><br>
 
                 <label for="date_max">До</label>
                 <input type="date" name="date_max" value="<?php echo isset($_COOKIE['sales_filter_data']) ? json_decode($_COOKIE['sales_filter_data'])->date_max : ''; ?>"><br>

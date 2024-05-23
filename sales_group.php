@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!DOCTYPE html>
     <html lang="ru">
         <head>
-            <link href="css/styles.css" rel="stylesheet" type="text/css">
+            <link href="css/stylesTables.css" rel="stylesheet" type="text/css">
             <link rel="icon" href="image/favicon.png" type="image/png">
             <meta charset="UTF-8">
             <title>Учет оптовых продаж магазина</title>
